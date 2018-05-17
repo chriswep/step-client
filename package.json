@@ -1,0 +1,34 @@
+{
+    "name": "step-client",
+    "version": "0.0.1",
+    "description": "Provides offline-first access to the STEP API",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chriswep/step-client.git"
+    },
+    "keywords": [
+        "step",
+        "bible",
+        "tyndale"
+    ],
+    "author": "Chris Metz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chriswep/step-client/issues"
+    },
+    "homepage": "https://github.com/chriswep/step-client#readme",
+    "devDependencies": {
+        "@types/isomorphic-fetch": "0.0.34",
+        "@types/sqlite3": "^3.1.3",
+        "sqlite3": "^4.0.0",
+        "typescript": "^2.8.3"
+    },
+    "dependencies": {
+        "whatwg-fetch": "^2.0.4"
+    }
+}

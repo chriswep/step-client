@@ -1,0 +1,82 @@
+{
+    "editor.formatOnType": true,
+    "editor.formatOnSave": false,
+    // "explorer.openEditors.dynamicHeight": true,
+    // "explorer.openEditors.visible": 20,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.wrappingIndent": "indent",
+    "editor.wordWrap": "off",
+    "files.exclude": {
+        ".sass-cache/": true,
+        ".tmp*": true,
+        "build/": true,
+        ".sourcemaps": true,
+        ".vscode": true,
+        ".tscache": true,
+        "plugins": true,
+        "wwwioni/": true,
+        "npm-debug.log.*": true,
+    },
+    "search.exclude": {
+        "node_modules": false,
+        "packages": true,
+        "www": true,
+        "platforms": true,
+        "legacy/": true,
+    },
+    "typescript.tsdk": "node_modules/typescript/lib/",
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.validate.enable": true,
+    "typescript.useCodeSnippetsOnMethodSuggest": true,
+    "[typescript]": {
+        "editor.codeLens": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": true,
+        "editor.rulers": [100],
+        "editor.minimap.enabled": true,
+        "editor.minimap.renderCharacters": false,
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 100
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "TodoParser": {
+        "include": ["ts"],
+        "only": ["src"]
+    },
+    "autofold.types": [
+        {
+            "ext": ".js",
+            "level": 1
+        },
+        {
+            "ext": ".ts",
+            "level": 2
+        }
+    ],
+    "sfmt.insize": 4,
+    "html.format.unformatted": "",
+    "html.format.maxPreserveNewLines": 1,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 100,
+    "prettier.typescriptEnable": [
+        "typescript"
+    ],
+}
