@@ -4,6 +4,6 @@ export declare class Step {
     constructor({sqliteDb}: {
         sqliteDb: Database;
     });
-    getDb: () => Database;
+    persistResource: (resId: string) => void;
     getStepData: () => Promise<any>;
 }

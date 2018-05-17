@@ -39,11 +39,16 @@ var Step = /** @class */ (function () {
     function Step(_a) {
         var sqliteDb = _a.sqliteDb;
         var _this = this;
-        this.getDb = function () { return _this.db; };
+        this.persistResource = function (resId) {
+            resId;
+            _this.db;
+        };
         this.getStepData = function () { return __awaiter(_this, void 0, void 0, function () {
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0: return [4 /*yield*/, fetch('https://www.stepbible.org/rest/search/masterSearch/version=ESV%7Creference=John.1').then(function (r) { return r.json(); })];
+                    case 0: return [4 /*yield*/, fetch('https://www.stepbible.org/rest/search/masterSearch/version=ESV%7Creference=John.1', {
+                            mode: 'cors'
+                        }).then(function (r) { return r.json(); })];
                     case 1: return [2 /*return*/, _a.sent()];
                 }
             });

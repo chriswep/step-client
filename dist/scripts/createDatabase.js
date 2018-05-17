@@ -7,5 +7,5 @@ var sqliteDb = new sqlite3.Database('step.db');
 var step = new step_1.Step({
     sqliteDb: sqliteDb
 });
-step.getStepData();
+step.persistResource('ESV');
 sqliteDb.close();
