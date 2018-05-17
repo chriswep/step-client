@@ -1,2 +1,3 @@
 import 'whatwg-fetch';
-export declare const getStepData: () => Promise<any>;
+import { Step } from './lib/step';
+export { Step };

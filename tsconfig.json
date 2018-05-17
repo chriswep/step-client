@@ -7,7 +7,6 @@
         "lib": ["dom", "es2015"],
         "module": "commonjs",
         "moduleResolution": "node",
-        "baseUrl": "./src",
         "outDir": "./dist",
         "target": "es5",
         "strictNullChecks": true,
